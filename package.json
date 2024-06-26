@@ -1,7 +1,7 @@
 {
     "$schema": "https://json.schemastore.org/package.json",
     "private": true,
-    "name": "@brand-kickstart/source",
+    "name": "@kickstart-brand/source",
     "description": "Kickstart your brand's ecosystem.",
     "scripts": {
         "dev": "turbo run dev",
