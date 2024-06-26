@@ -1,8 +1,6 @@
 import { PingClient } from "./ping";
 import { BasicQueryErrorResponseBody, BasicQuerySuccessResponseBody, ContentTypeHeader } from "../lib/types";
 
-export interface ClientInitOptions {}
-
 export class Client {
     readonly ping: PingClient;
 
@@ -75,6 +73,8 @@ export class RequestClient {
         }
     }
 }
+
+export interface ClientInitOptions {}
 
 export interface RequestClientInitOptions {
     url: `${"http" | "https"}://${string}/`;
