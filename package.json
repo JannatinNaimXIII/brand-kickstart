@@ -1,0 +1,38 @@
+{
+    "$schema": "https://json.schemastore.org/package.json",
+    "private": true,
+    "name": "@brand-kickstart/source",
+    "description": "Kickstart your brand's ecosystem.",
+    "scripts": {
+        "dev": "turbo run dev",
+        "format": "turbo run source:format format",
+        "lint": "turbo run lint",
+        "test": "turbo run test",
+        "build": "turbo run build",
+        "pass": "turbo run format lint test build",
+        "source:format": "prettier . --cache --write"
+    },
+    "author": {
+        "name": "Jannatin Naim",
+        "email": "jannatinnaim@pondit.family",
+        "url": "https://jannatinnaim.com"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": "^22.0.0"
+    },
+    "packageManager": "^npm@10.0.0",
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "devDependencies": {
+        "prettier": "^3.3.2",
+        "turbo": "^2.0.5"
+    },
+    "prettier": {
+        "printWidth": 120,
+        "tabWidth": 4,
+        "endOfLine": "lf"
+    }
+}
