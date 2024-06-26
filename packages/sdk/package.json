@@ -1,0 +1,20 @@
+{
+    "private": true,
+    "name": "@kickstart-brand/sdk",
+    "main": "src/main.ts",
+    "types": "src/main.ts",
+    "scripts": {
+        "dev": "tsc --watch",
+        "format": "prettier . --cache --write",
+        "lint": "eslint src/**/*.ts --ignore-pattern .gitignore",
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^6.0.0",
+        "@typescript-eslint/parser": "^6.0.0",
+        "eslint": "^8.42.0",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-plugin-prettier": "^5.0.0",
+        "typescript": "^5.5.2"
+    }
+}

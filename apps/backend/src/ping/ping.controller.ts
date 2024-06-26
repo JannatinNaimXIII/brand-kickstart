@@ -1,5 +1,6 @@
 import { Controller, Get, Logger, VERSION_NEUTRAL } from "@nestjs/common";
 import { PingService } from "./ping.service";
+import { GetPingSuccessResponseBody } from "@kickstart-brand/sdk";
 
 @Controller({
     path: "ping",
@@ -11,7 +12,7 @@ export class PingController {
     constructor(private readonly pingService: PingService) {}
 
     @Get()
-    async getPing() {
+    async getPing(): Promise<GetPingSuccessResponseBody> {
         return this.pingService.getPing();
     }
 }
