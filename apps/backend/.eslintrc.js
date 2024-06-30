@@ -12,7 +12,7 @@ module.exports = {
         node: true,
         jest: true,
     },
-    ignorePatterns: [".eslintrc.js"],
+    ignorePatterns: [".eslintrc.js", "webpack.config.js"],
     rules: {
         "prettier/prettier": "warn",
         "@typescript-eslint/interface-name-prefix": "off",
