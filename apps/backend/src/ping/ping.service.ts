@@ -1,5 +1,5 @@
 import { Injectable, Logger } from "@nestjs/common";
-import { GetPingSuccessResponseBody } from "@kickstart-brand/sdk";
+import { GetPingSuccessResponseBody } from "@brand-kickstart/sdk";
 
 @Injectable()
 export class PingService {

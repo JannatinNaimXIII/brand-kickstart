@@ -1,4 +1,4 @@
-import { Client } from "@kickstart-brand/sdk";
+import { Client } from "@brand-kickstart/sdk";
 
 export default async function Home() {
     const api = new Client({

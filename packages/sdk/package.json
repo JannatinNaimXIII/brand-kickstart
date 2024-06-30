@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "@kickstart-brand/sdk",
+    "name": "@brand-kickstart/sdk",
     "main": "src/main.ts",
     "types": "src/main.ts",
     "scripts": {

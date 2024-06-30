@@ -1,6 +1,6 @@
 import { Controller, Get, Logger, VERSION_NEUTRAL } from "@nestjs/common";
 import { PingService } from "./ping.service";
-import { GetPingSuccessResponseBody } from "@kickstart-brand/sdk";
+import { GetPingSuccessResponseBody } from "@brand-kickstart/sdk";
 
 @Controller({
     path: "ping",

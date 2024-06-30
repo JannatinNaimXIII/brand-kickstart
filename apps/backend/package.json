@@ -1,7 +1,7 @@
 {
     "$schema": "https://json.schemastore.org/package.json",
     "private": true,
-    "name": "@kickstart-brand/backend",
+    "name": "@brand-kickstart/backend",
     "scripts": {
         "dev": "nest start --watch",
         "format": "prettier . --cache --write",
@@ -18,7 +18,7 @@
         "test:e2e": "jest --config ./test/jest-e2e.json --passWithNoTests"
     },
     "dependencies": {
-        "@kickstart-brand/sdk": "*",
+        "@brand-kickstart/sdk": "*",
         "@nestjs/common": "^10.0.0",
         "@nestjs/core": "^10.0.0",
         "@nestjs/platform-express": "^10.0.0",
